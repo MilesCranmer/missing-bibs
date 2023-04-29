@@ -11,3 +11,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 regex = "1.8"
 strsim = "0.10"
+
+[[bin]]
+name = "missingbibs"
+path = "src/main.rs"
