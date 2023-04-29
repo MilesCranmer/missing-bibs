@@ -1,0 +1,13 @@
+[package]
+name = "missing-bibs"
+version = "0.1.0"
+edition = "2021"
+description = "Help solve issue related to missing citation keys in LaTeX"
+repository = "https://github.com/MilesCranmer/missing-bibs"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.8"
+strsim = "0.10"
